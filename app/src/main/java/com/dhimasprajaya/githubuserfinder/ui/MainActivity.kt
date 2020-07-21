@@ -48,6 +48,10 @@ class MainActivity : AppCompatActivity() {
             viewModel.searchRepo(query)
         }
         initSearch(query)
+
+        binding.search.setOnClickListener {
+            initSearch(query)
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -130,6 +134,6 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val LAST_SEARCH_QUERY: String = "last_search_query"
-        private const val DEFAULT_QUERY = ""
+        private const val DEFAULT_QUERY = "octo"
     }
 }
