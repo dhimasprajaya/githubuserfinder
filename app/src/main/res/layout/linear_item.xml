@@ -35,12 +35,12 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/repository"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/score"
+            android:text="@string/repository"
             android:textColor="@color/dark_grey"
             android:textSize="14sp" />
     </LinearLayout>

@@ -5,4 +5,5 @@
     <string name="search">Search</string>
     <string name="username">Username</string>
     <string name="score">Score</string>
+    <string name="repository">Repository</string>
 </resources>
